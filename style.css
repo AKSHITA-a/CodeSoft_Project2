@@ -72,11 +72,10 @@
 
 .container {
     background-color: black;
-    width: 100%;
     height: 650px;
     color: #ffac00;
     gap: 100px;
-    width: 112%;
+    width: 102%;
 }
 
 .upper,
@@ -89,7 +88,7 @@
 }
 
 .lower{
-    margin-right: 110px;
+    padding-right: 110px;
 }
 
 .upper h2,
@@ -129,13 +128,13 @@ section {
 }
 
 .instructor {
-    margin: 1rem 0;
-    gap: 20px;
+    margin-top: 55px;
+    gap: 30px;
 }
 
 .instructor img {
-    width: 304px;
-    height: 304px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
 }
 
@@ -254,18 +253,26 @@ body {
     }
 
     .secIMG1, .secIMG2, .instructor img {
-        width: 90%;
-        height: 90%;
-        height: auto;
+        width: 65%;
+        height: 45%;
+    }
+
+    .about .lower img{
+        padding:0;
+        height :30%;
+        
     }
 
     .upper, .lower {
-        width: 90%;
+        width: 70%;
         margin: 20px 0;
     }
 
     footer {
         text-align: center;
+        width:110%;
     }
+
+
 }
 
