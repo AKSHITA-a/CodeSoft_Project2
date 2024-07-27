@@ -2,7 +2,7 @@
     width: 100%;
     margin: auto;
     background-color: #f4b41a;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 65px;
 }
 
@@ -10,6 +10,7 @@
     width: 60px;
     margin-top: 5px;
     padding: 8px;
+    left:0;
 }
 
 .navbar {
@@ -174,3 +175,93 @@ footer ul li a:hover {
     position: relative;
     z-index: 20;
 }
+
+/* Default Styles (for larger screens) */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: #ffac00;
+    margin: 0;
+    padding: 0;
+}
+
+/*responsive design for smartphone screens*/
+@media (max-width: 768px) {
+    .container1, .hero, .about, .schedule, .instructors, .footer {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .navbar ul li {
+        font-size: 1em;
+    }
+
+    .hero h1 {
+        font-size: 2em;
+    }
+
+    .hero .btn {
+        padding: 0.5rem 1rem;
+        font-size: 1em;
+    }
+
+    .secIMG1, .secIMG2, .instructor img {
+        width: 100%;
+        height: auto;
+    }
+
+    .upper, .lower {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
+
+/*responsive design for desktop screens*/
+@media (max-width: 1024px) {
+    .container1, .hero, .about, .schedule, .instructors, .footer {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .navbar ul {
+        flex-direction: row;
+        gap: 8px;
+    }
+
+    .navbar ul li {
+        font-size: 1.1em;
+    }
+
+    .hero h1 {
+        font-size: 2.5em;
+    }
+
+    .hero .btn {
+        padding: 0.7rem 1.2rem;
+        font-size: 1.1em;
+    }
+
+    .secIMG1, .secIMG2, .instructor img {
+        width: 90%;
+        height: auto;
+    }
+
+    .upper, .lower {
+        width: 90%;
+        margin: 20px 0;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
+
