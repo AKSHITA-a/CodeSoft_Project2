@@ -13,7 +13,6 @@
 }
 
 .navbar {
-    width: 75%;
     justify-content: flex-end;
 }
 
@@ -24,14 +23,14 @@
 .navbar ul li {
     list-style-type: none;
     font-size: 1.3em;
-    margin: 5px;
+    padding: 5px;
     color: black;
 }
 
 .hero {
     background-image: url(asset/bg2.jpg);
     background-position: center center;
-    background-size: max(1200px, 100vw);
+    background-size: max(1200px, 10vw);
     background-repeat: no-repeat;
     height: 750px;
     position: relative;
@@ -40,18 +39,18 @@
 .main {
     font-family: 'Martel Sans', sans-serif;
     height: calc(100% - 100px);
-    justify-content: end;
+    justify-content:end;
     flex-direction: column;
     color: black;
     position: relative;
     gap: 20px;
-    /* padding: 0 30px; */
 }
 
 .hero h1 {
     font-size: 3em;
     color: #f4b41a;
     text-decoration: underline;
+    padding-bottom: 20px;
 }
 
 .hero .btn {
@@ -75,42 +74,49 @@
     width: 100%;
     height: 650px;
     color: #ffac00;
+    gap: 100px;
+    width: 112%;
 }
 
 .upper,
 .lower {
+    margin-top: 15px;
     font-size: 1.3em;
+    width:50%;
+    padding:2px 30px;
+    text-wrap:wrap ;
 }
 
 .lower{
-    margin-top : 25px;
+    margin-right: 110px;
 }
+
 .upper h2,
 .instructors h2 {
     font-size: 2em;
     text-decoration: underline;
 }
 
-.upper ul li {
+.lower ul li {
     list-style-type: none;
-    margin-top:15px;
+    margin-top: 15px;
 }
 
-.lower img {
-    margin-top: 5px;
-    width: max(538px, 30vw);
+
+.secIMG1 {
+    width: 360px;
+    padding: 80px 0;
+}
+
+.secIMG2 {
+    padding: 75px 2px;
+    width: 308px;
 }
 
 section {
     padding: 5px 0;
     text-align: center;
 }
-
-.schedule .container .upper{
-    margin-left: 220px; 
-    gap : 30px;
-}
-
 
 .about,
 .schedule,
@@ -141,6 +147,7 @@ footer {
     color: white;
     padding: 0.8rem 0;
     text-align: center;
+    width:112%;
 }
 
 footer ul {
